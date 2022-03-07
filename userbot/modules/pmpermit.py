@@ -18,15 +18,15 @@ from userbot.utils import edit_delete, edit_or_reply
 
 DEF_UNAPPROVED_MSG = (
     "❏ PERINGATAN!\n"
-    "┌ Saya belum menyetujui kmu\n"
-    "├ Tunggu sampai saya menyetujui\n" 
-    "├ Cht kmu, jangan spam cht\n"
-    "├ atau kmu akan otomatis\n"
-    "├ terblokir.\n"
-    "└ Bot by **PocongUserbot**\n"
+    "┌ Hai Tod Saya Belum menyetujui Org Kek Lu\n"
+    "├ Tunggu Sampai Saya Mau Menyetujui\n" 
+    "├ Chat Dari Org Kek Lu, jangan spam chat Ya Anj\n"
+    "├ Atau Lu Akan Otomatis\n"
+    "├ Terblokir.\n"
+    "└ Bot by **AmiUser-iBotz**\n"
     "┌━━━━━━━━━━━━\n"
-    "├❏ **𝗦𝘂𝗽𝗽𝗼𝗿𝘁: @PocongUserbot**\n"
-    "├❏ **𝗖𝗵𝗮𝗻𝗻𝗲𝗹: @PocongProject**\n"
+    "├❏ **𝗦𝘂𝗽𝗽𝗼𝗿𝘁: @AmiBotSiMurni**\n"
+    "├❏ **𝗖𝗵𝗮𝗻𝗻𝗲𝗹: @amAllservice**\n"
     "└━━━━━━━━━━━━\n"
 )
 
@@ -83,7 +83,7 @@ async def permitpm(event):
 
             if COUNT_PM[event.chat_id] > PM_LIMIT:
                 await event.respond(
-                    "**Maaf Anda Telah Di Blokir Karna Melakukan Spam Chat**"
+                    "**Mampus Gw Block Lu Jelek Kali Muka Lu**"
                 )
 
                 try:
@@ -110,7 +110,7 @@ async def permitpm(event):
                         + "](tg://user?id="
                         + str(event.chat_id)
                         + ")"
-                        + " **Telah Diblokir Karna Melakukan Spam Ke Room Chat**",
+                        + " **UDAH JELEK LU BODO LAGI GW BLOCK LU KARNA NGESPAM**",
                     )
 
 
@@ -218,7 +218,7 @@ async def approvepm(apprvpm):
 
         if not isinstance(user, User):
             return await edit_delete(
-                apprvpm, "**Mohon Reply Pesan User Yang ingin diterima.**"
+                apprvpm, "**Mohon Reply Pesan User Yang ingin diterima Ya Tod.**"
             )
 
         uid = user.id
@@ -228,7 +228,7 @@ async def approvepm(apprvpm):
         aname = await apprvpm.client.get_entity(apprvpm.chat_id)
         if not isinstance(aname, User):
             return await edit_delete(
-                apprvpm, "**Mohon Reply Pesan User Yang ingin diterima.**"
+                apprvpm, "**Mohon Reply Pesan User Yang ingin diterima Ya Tod.**"
             )
         name0 = str(aname.first_name)
         uid = apprvpm.chat_id
@@ -244,10 +244,10 @@ async def approvepm(apprvpm):
     try:
         approve(uid)
     except IntegrityError:
-        return await edit_delete(apprvpm, "**Pesan Anda Sudah Diterima**")
+        return await edit_delete(apprvpm, "**Karna Gw Baik Gw Terima Pesan lu**")
 
     await edit_delete(
-        apprvpm, f"**Menerima Pesan Dari** [{name0}](tg://user?id={uid})", 5
+        apprvpm, f"**Dapat Pesan Nih Tod Dari** [{name0}](tg://user?id={uid})", 5
     )
 
     if BOTLOG:
@@ -283,12 +283,12 @@ async def disapprovepm(disapprvpm):
             user = await disapprvpm.client.get_entity(inputArgs)
         except BaseException:
             return await edit_delete(
-                disapprvpm, "**Mohon Reply Pesan User Yang ingin ditolak.**"
+                disapprvpm, "**Mohon Reply Pesan User Yang ingin ditolak Ya Tod.**"
             )
 
         if not isinstance(user, User):
             return await edit_delete(
-                disapprvpm, "**Mohon Reply Pesan User Yang ingin ditolak.**"
+                disapprvpm, "**Mohon Reply Pesan User Yang ingin ditolak Ya Tod.**"
             )
 
         aname = user.id
@@ -307,13 +307,13 @@ async def disapprovepm(disapprvpm):
 
     await edit_or_reply(
         disapprvpm,
-        f" **Maaf Pesan** [{name0}](tg://user?id={aname}) **Telah Ditolak, Mohon Jangan Melakukan Spam Ke Room Chat!**",
+        f" **Maaf Ya Lu Terlalu Jelek** [{name0}](tg://user?id={aname}) **Jadi Gw Tolak Pesan Lu, Mohon Jangan Melakukan Spam Ya Tod Di Room Chat Gw!**",
     )
 
     if BOTLOG:
         await disapprvpm.client.send_message(
             BOTLOG_CHATID,
-            f"[{name0}](tg://user?id={aname})" "** Berhasil Ditolak**",
+            f"[{name0}](tg://user?id={aname})" "** Berhasil Ditolak Ya Tod**",
         )
 
 
@@ -326,14 +326,14 @@ async def blockpm(block):
         aname = replied_user.id
         name0 = str(replied_user.first_name)
         await block.client(BlockRequest(aname))
-        await block.edit("**Anda Telah Diblokir!**")
+        await block.edit("**Dih Karna Lu Jelek Gw Block Lu Mampus!**")
         uid = replied_user.id
     else:
         await block.client(BlockRequest(block.chat_id))
         aname = await block.client.get_entity(block.chat_id)
         if not isinstance(aname, User):
             return await block.edit("**This can be done only with users.**")
-        await block.edit("**Kamu Telah Diblokir!**")
+        await block.edit("**Maaf Kamu Terlalu Sombong Jadi Kamu Telah Diblokir!**")
         name0 = str(aname.first_name)
         uid = block.chat_id
 
@@ -359,12 +359,12 @@ async def unblockpm(unblock):
         replied_user = await unblock.client.get_entity(reply.sender_id)
         name0 = str(replied_user.first_name)
         await unblock.client(UnblockRequest(replied_user.id))
-        await unblock.edit("**Anda Sudah Tidak Diblokir Lagi.**")
+        await unblock.edit("**Karna Gw Baik Gw Buka Blocknya Ya Tod.**")
 
     if BOTLOG:
         await unblock.client.send_message(
             BOTLOG_CHATID,
-            f"[{name0}](tg://user?id={replied_user.id})" " **Berhasil di Unblock!.**",
+            f"[{name0}](tg://user?id={replied_user.id})" " **Udh Gw Unblock Ya Tod!.**",
         )
 
 
