@@ -1,6 +1,6 @@
 FROM mrismanaziz/man-userbot:buster
 
-RUN git clone -b main https://github.com/poocong/PocongUserbot /home/poconguserbot/ \
+RUN git clone -b main https://github.com/amibotdisini/AmiUser-iBotz /home/poconguserbot/ \
     && chmod 777 /home/poconguserbot \
     && mkdir /home/poconguserbot/bin/
 
