@@ -53,8 +53,8 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ### Update & Support
-* Grup Support [[PocongUserbot]](https://t.me/AmiBotSiMurni)
-* Channel Support [[Poocongonlen]](https://t.me/amAllService)
+* Grup Support [[Group HaveFun]](https://t.me/AmiBotSiMurni)
+* Channel Support [[Channel Friends]](https://t.me/amAllService)
 
 <details>
     <summary>&#127942 <b>Credits</b></summary><br/>
