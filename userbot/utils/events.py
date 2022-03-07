@@ -62,7 +62,7 @@ async def get_user_from_event(
             if not noedits:
                 await edit_delete(
                     manevent,
-                    "**Mohon Reply Pesan atau Berikan User ID/Username pengguna!**",
+                    "**Woy Tod Reply Ke Pesan Atau Berikan User ID/Username pengguna!**",
                     60,
                 )
             return None, None
@@ -71,7 +71,7 @@ async def get_user_from_event(
     if not noedits:
         await edit_delete(
             manevent,
-            "**Mohon Reply Pesan atau Berikan User ID/Username pengguna!**",
+            "**Woy Tod Reply Ke Pesan Atau Berikan User ID/Username pengguna!**",
             60,
         )
     return None, None
