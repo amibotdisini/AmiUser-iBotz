@@ -1,10 +1,10 @@
-# <p align="center">𝑃𝑜𝑐𝑜𝑛𝑔 𝑈𝑠𝑒𝑟𝑏𝑜𝑡</p>
+# <p align="center">𖣘𝘼𝙈𝙄-𝙄𝘽𝙊𝙏𖣘</p>
 
-<img src="https://telegra.ph/file/0297888edbdc754503e0b.jpg">
+<img src="https://telegra.ph/file/df0eca32d162a6ef05440.jpg">
 </p>
 
 <p align="center">
-    <img alt="POCONG VERSION" src="https://img.shields.io/badge/POCONG%20VERSION-2.3.4-brightgreen"/>
+    <img alt="AMIBOT VERSION" src="https://img.shields.io/badge/AMIBOT%20VERSION-2.3.4-brightgreen"/>
     <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Day-brightgreen"/>
            <a href="https://travis-ci.com/poocong/PocongUserbot.svg?branch=main" /></a>
     <a href="https://github.com/poocong/PocongUserbot/network/members"> <img src="https://img.shields.io/github/forks/poocong/PocongUserbot?logo=github&style=for-the-badge" /></a>
@@ -14,10 +14,12 @@
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.0-blue?style=for-the-badge&logo=appveyor"/>
    </p>
 
-PocongUserbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+AmiUser-iBot Adalah Userbot Telegram Modular Yang Berjalan Di Python3 Dengan Database Sqlalchemy.
 
-Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
-Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
+Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) Userbot.
+Saya Tidak Membuat Repository ini... 🗿 Ini Punya Pocong Untuk Memilih Dan Menambahkan Beberapa Modul Yang DiButuhkan Dengan Banyak Perubahan, Fitur Dan Modul.
+
+Ini Bot Hanya Untuk Bersuka Suka Saya Tidak Tau Apa Apa Jgn Marah Saya (٥↼_↼) Bot Ni Sedikit Toxic Sedikit Sahaja 😑
 
 ## Disclaimer
 
