@@ -351,7 +351,7 @@ async def check_botlog_chatid() -> None:
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**PocongUserBot v{BOT_VER} is back up and running!**\n\n"
+        f"**AmiUser-iBot v{BOT_VER} Telah Kembali Untuk Menjadi Pahlawan!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -531,7 +531,7 @@ with bot:
                 result = builder.photo(
                     file=logoman,
                     link_preview=False,
-                    text=f"**🚀 PocongUserbot Inline Menu **\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**⚡️ AmiUser-iBot Inline Menu **\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
@@ -540,7 +540,7 @@ with bot:
                     description="Repository PocongUserbot",
                     url="https://t.me/PocongUserbot",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**PocongUserBot**\n➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Pocong](https://t.me/Pocongonlen)\n✣ **Support :** @PocongUserbot\n✣ **Repository :** [PocongUserbot](https://github.com/poocong/PocongUserbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**AmiUser-iBot**\n➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Pocong](https://t.me/Pocongonlen)\n✣ **Support :** @PocongUserbot\n✣ **Repository :** [PocongUserbot](https://github.com/poocong/PocongUserbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("𝐺𝑟𝑜𝑢𝑝", "https://t.me/PocongUserbot"),
@@ -589,7 +589,7 @@ with bot:
                     description="PocongUserBot | Telethon",
                     url="https://t.me/PocongUserbot",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text=f"**PocongUserBot**\n➖➖➖➖➖➖➖➖➖ **UserMode:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖\n**Support:** @PoocongUserbot\n➖➖➖➖➖➖➖➖",
+                    text=f"**AmiUser-iBot**\n➖➖➖➖➖➖➖➖➖ **UserMode:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖\n**Support:** @PoocongUserbot\n➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("𝐺𝑟𝑜𝑢𝑝", "https://t.me/PocongUserbot"),
@@ -609,7 +609,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 current_page_number = int(looters)
                 buttons = paginate_help(current_page_number, dugmeler, "helpme")
-                text = f"**🚀 PocongUserbot Inline Menu **\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
+                text = f"**⚡️ AmiUser-iBot Inline Menu **\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
                 await event.edit(
                     text,
                     file=logoman,
@@ -617,7 +617,7 @@ with bot:
                     link_preview=False,
                 )
             else:
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+                reply_pop_up_alert = f"Lu Ngapain Anj, ini Userbot Milik {owner}"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -632,7 +632,7 @@ with bot:
                 await event.edit(buttons=buttons)
             else:
                 reply_pop_up_alert = (
-                    f"Kamu Tidak diizinkan, ini Userbot Milik {ALIVE_NAME}"
+                    f"Lu Ngapain Anj, ini Userbot Milik {ALIVE_NAME}"
                 )
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
@@ -645,7 +645,7 @@ with bot:
                 )
                 await event.delete()
             else:
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+                reply_pop_up_alert = f"Lu Ngapain Anj, ini Userbot Milik {owner}"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -659,7 +659,7 @@ with bot:
                 buttons = paginate_help(current_page_number - 1, dugmeler, "helpme")
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+                reply_pop_up_alert = f"Lu Ngapain Anj, ini Userbot Milik {owner}"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"ub_modul_(.*)")))
@@ -691,7 +691,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+                reply_pop_up_alert = f"Lu Ngapain Anj, ini Userbot Milik {owner}"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     except BaseException:
