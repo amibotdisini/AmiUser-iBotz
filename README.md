@@ -41,7 +41,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 </details>
 
 <details>
-    <summary> <b>🔗 Deploy Pocong Userbot</b></summary><br/>
+    <summary> <b>🔗 Deploy AmiUser-iBotz</b></summary><br/>
 
 <p align="center"><a href="https://userbotindo.tech"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Web%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
 
@@ -53,8 +53,8 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ### Update & Support
-* Grup Support [[PocongUserbot]](https://t.me/PocongUserbot)
-* Channel Support [[Poocongonlen]](https://t.me/PocongProject)
+* Grup Support [[PocongUserbot]](https://t.me/AmiBotSiMurni)
+* Channel Support [[Poocongonlen]](https://t.me/amAllService)
 
 <details>
     <summary>&#127942 <b>Credits</b></summary><br/>
