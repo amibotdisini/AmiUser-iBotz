@@ -17,17 +17,32 @@ from userbot.events import poci_cmd, register
 from userbot.utils import edit_delete, edit_or_reply
 
 DEF_UNAPPROVED_MSG = (
-    "❏ PERINGATAN!\n"
-    "┌ Hai Tod Saya Belum menyetujui Org Kek Lu\n"
-    "├ Tunggu Sampai Saya Mau Menyetujui\n" 
-    "├ Chat Dari Org Kek Lu, jangan spam chat Ya Anj\n"
-    "├ Atau Lu Akan Otomatis\n"
-    "├ Terblokir.\n"
-    "└ Bot by **AmiUser-iBotz**\n"
-    "┌━━━━━━━━━━━━\n"
-    "├❏ **𝗦𝘂𝗽𝗽𝗼𝗿𝘁: @AmiBotSiMurni**\n"
-    "├❏ **𝗖𝗵𝗮𝗻𝗻𝗲𝗹: @amAllservice**\n"
-    "└━━━━━━━━━━━━\n"
+    "➠ PERINGATAN YA❗\n"
+    "“𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐓𝐡𝐞 𝐏𝐫𝐢𝐯𝐚𝐜𝐲 𝐌𝐞𝐬𝐬𝐚𝐠𝐞”\n"
+    "Ini Hanya Pesan Dari Bot!\n" 
+    "Masa Lu Baper Ama Bot Wkwkwk\n"
+    "╔══════════════════════╗\n"
+    "╠•Hai Tod Lu Gay Ya?Dih Si Gay\n"
+    "╠•Canda Tod.Chat Gw Harus Ganteng\n"
+    "╠•Oi Tod Kerana Lu Gak Ganteng\n"
+    "╠•Gw Belum Menyetujui Lu\n"
+    "╠•Tunggu Sampai Lu Ganteng\n"
+    "╠•Baru Gw Menyetujui Chat\n"
+    "╠•Dari Lu Jadi Kalau Gw\n"
+    "╠•Gak Balas Lagi Chat Lu\n"
+    "╠•Jangan Lu Spam Chat Ya Anj\n"
+    "╠•Kek Org Tolol Gak Bisa Baca\n"
+    "╠•Atau Lu Akan Otomatis Terblokir.\n"
+    "╚══════════════════════╝\n"
+    "╭✠╼━━━━━━❖━━━━━━━✠╮
+    "┣[•𖣘 AUTOREPLAY MASSAGES
+    "┣[•𖣘 BY: AmiUser-iBotz
+    "┣[•𖣘 AMIBOT: @amibaik_bot
+    "╰✠╼━━━━━━❖━━━━━━━✠╯
+    "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
+    "┣[•𖣘 **𝗦𝘂𝗽𝗽𝗼𝗿𝘁: @AmiBotSiMurni**\n"
+    "┣[•𖣘 **𝗖𝗵𝗮𝗻𝗻𝗲𝗹: @amAllservice**\n"
+    "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
 )
 
 
