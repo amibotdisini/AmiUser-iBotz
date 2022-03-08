@@ -45,7 +45,7 @@ LOGS.info(
     f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/PocongUserbot"
 )
 
-LOGS.info(f"AmiUser-iBot ⚙️ V{BOT_VER} [🔥 BERHASIL DIAKTIFKAN YA ANJ! 🔥]")
+LOGS.info(f"AmiUser-iBot ⚙️ V{BOT_VER} [⚡️ BERHASIL DIAKTIFKAN YA ANJ! ⚡️]")
 
 
 async def pocong_userbot_on():
@@ -53,7 +53,7 @@ async def pocong_userbot_on():
         if BOTLOG_CHATID != 0:
             await bot.send_message(
                 BOTLOG_CHATID,
-                f"🔥 **AmiUser-iBot Berhasil Di Aktifkan Ya Tod**\n━━\n➠ **Userbot Version -** `{BOT_VER}@{branch}`\n➠ **Ketik** `{cmd}alive` **untuk Mengecheck Bot**\n━━",
+                f"𖣘 **AmiUser-iBot Berhasil Di Aktifkan Ya Tod**\n━━\n➠ **Userbot Version -** `{BOT_VER}@{branch}`\n➠ **Ketik** `{cmd}alive` **untuk Mengecheck Bot**\n━━",
             )
     except Exception as e:
         LOGS.info(str(e))
