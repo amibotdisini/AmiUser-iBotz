@@ -35,9 +35,9 @@ DEF_UNAPPROVED_MSG = (
     "╠•Atau Lu Akan Otomatis Terblokir.\n"
     "╚══════════════════════╝\n"
     "╭✠╼━━━━━━❖━━━━━━━✠╮
-    "┣[•𖣘 AUTOREPLAY MASSAGES
-    "┣[•𖣘 BY: AmiUser-iBotz
-    "┣[•𖣘 AMIBOT: @amibaik_bot
+    "┣[•𖣘 AUTOREPLAY MASSAGES\n"
+    "┣[•𖣘 BY: AmiUser-iBotz\n"
+    "┣[•𖣘 AMIBOT: @amibaik_bot\n"
     "╰✠╼━━━━━━❖━━━━━━━✠╯
     "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
     "┣[•𖣘 **𝗦𝘂𝗽𝗽𝗼𝗿𝘁: @AmiBotSiMurni**\n"
